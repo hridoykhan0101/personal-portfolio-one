@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(208, 204, 204);
+}
+
+.navbar-center {
+    float: none;
+    text-align: center;
+    font-size: large;
+    background-color: #303a45; /* Midnight Blue */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-center > li {
+    display: inline-block;
+    float: none;
+    color: #FFFFFF; /* White */
+    padding: 30px 30px;
+}
+
+
+
+.navbar-center > li > a:hover,
+.navbar-center > li.active > a {
+    color: #1ABC9C; /* Aqua */
+    background-color: transparent;
+}
